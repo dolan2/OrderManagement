@@ -1,0 +1,15 @@
+<mat-toolbar>
+  <button mat-icon-button (click)="drawer.toggle()" class="example-icon" aria-label="Example icon-button with menu icon">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span>Order Management</span>
+</mat-toolbar>
+
+<mat-drawer-container class="example-container" autosize>
+  <mat-drawer #drawer class="example-sidenav" mode="side">
+    <p class="order-list">Order List</p>
+  </mat-drawer>
+
+  <app-order-list></app-order-list>
+
+</mat-drawer-container>

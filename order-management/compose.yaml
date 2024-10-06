@@ -1,0 +1,10 @@
+services:
+  mysql:
+    image: 'mysql:latest'
+    environment:
+      - 'MYSQL_DATABASE=order-management-db'
+      - 'MYSQL_PASSWORD=8JgIsh8IDHxd3kr'
+      - 'MYSQL_ROOT_PASSWORD=8JgIsh8IDHxd3kr2'
+      - 'MYSQL_USER=order-user'
+    ports:
+      - '3306:3306'

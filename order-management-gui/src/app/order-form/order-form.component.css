@@ -1,0 +1,23 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+button {
+  margin-top: 10px;
+}
+
+div[formArrayName="orderItems"] {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mat-raised-button {
+  margin: 5px 0;
+}

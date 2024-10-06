@@ -1,0 +1,13 @@
+.order-table {
+  margin: 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+.add-order-button {
+  margin-bottom: 1vh;
+}
+
+mat-paginator {
+  margin-top: 2vh;
+}
